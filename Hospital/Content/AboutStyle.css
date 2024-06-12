@@ -1,0 +1,395 @@
+﻿
+/* sdmsa */
+.about {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+    .about .div {
+        background-color: #ffffff;
+        width: 100%;
+        height: 1024px;
+        position: relative;
+    }
+
+    .about .text-wrapper {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Work Sans", Helvetica;
+        font-weight: 600;
+        color: var(--accent);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .about .group {
+        position: relative;
+        width: 223px;
+        height: 45px;
+    }
+
+    .about .img {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 11px;
+        left: -1px;
+    }
+
+    .about .button {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 13px 35px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        background-color: var(--accent);
+        border-radius: 50px;
+        all: unset;
+        box-sizing: border-box;
+    }
+
+    .about .button-2 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Work Sans", Helvetica;
+        font-weight: 500;
+        color: var(--primary);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+        all: unset;
+        box-sizing: border-box;
+    }
+
+    .about .about-us-content {
+        position: absolute;
+        width: 1381px;
+        height: 529px;
+        top: 470px;
+        left: 35px;
+    }
+
+    .about .headline-about-us {
+        position: absolute;
+        width: 450px;
+        height: 131px;
+        top: 0;
+        left: 546px;
+    }
+
+    .about .best-care-for-your {
+        position: absolute;
+        top: 21px;
+        left: 0;
+        font-family: var(--display-1-font-family);
+        font-weight: var(--display-1-font-weight);
+        color: var(--primary);
+        font-size: var(--display-1-font-size);
+        letter-spacing: var(--display-1-letter-spacing);
+        line-height: var(--display-1-line-height);
+        font-style: var(--display-1-font-style);
+    }
+
+    .about .welcome-to-ELYSIUM {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: var(--caption-font-family);
+        font-weight: var(--caption-font-weight);
+        color: var(--secondary);
+        font-size: var(--caption-font-size);
+        letter-spacing: var(--caption-letter-spacing);
+        line-height: var(--caption-line-height);
+        white-space: nowrap;
+        font-style: var(--caption-font-style);
+    }
+
+    .about .lists-div {
+        position: absolute;
+        width: 481px;
+        height: 107px;
+        top: 158px;
+        left: 578px;
+    }
+
+    .about .lists {
+        position: relative;
+        height: 107px;
+    }
+
+    .about .lists-first {
+        position: absolute;
+        width: 214px;
+        height: 25px;
+        top: 0;
+        left: 0;
+    }
+
+    .about .list-text {
+        position: absolute;
+        top: 0;
+        left: 26px;
+        font-family: var(--body-2-font-family);
+        font-weight: var(--body-2-font-weight);
+        color: #000000;
+        font-size: var(--body-2-font-size);
+        letter-spacing: var(--body-2-letter-spacing);
+        line-height: var(--body-2-line-height);
+        white-space: nowrap;
+        font-style: var(--body-2-font-style);
+    }
+
+    .about .rectangle {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 4px;
+        left: 0;
+        background-color: var(--secondary);
+        border-radius: 50px;
+    }
+
+    .about .lists-second {
+        position: absolute;
+        width: 131px;
+        height: 25px;
+        top: 41px;
+        left: 0;
+    }
+
+    .about .lists-third {
+        position: absolute;
+        width: 130px;
+        height: 25px;
+        top: 0;
+        left: 252px;
+    }
+
+    .about .lists-fourth {
+        position: absolute;
+        width: 142px;
+        height: 25px;
+        top: 41px;
+        left: 252px;
+    }
+
+    .about .lists-fifth {
+        position: absolute;
+        width: 230px;
+        height: 25px;
+        top: 82px;
+        left: 253px;
+    }
+
+    .about .lists-sixth {
+        position: absolute;
+        width: 151px;
+        height: 25px;
+        top: 82px;
+        left: 0;
+    }
+
+    .about .paragraph {
+        position: absolute;
+        width: 1381px;
+        height: 523px;
+        top: 6px;
+        left: 0;
+    }
+
+    .about .at-ELYSIUM-HOSPITAL {
+        position: absolute;
+        width: 833px;
+        top: 296px;
+        left: 546px;
+        font-family: "Work Sans", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .about .span {
+        letter-spacing: 0;
+        line-height: 22.4px;
+    }
+
+    .about .text-bold {
+        font-weight: 700;
+        letter-spacing: -0.32px;
+    }
+
+    .about .text-bold-comma {
+        font-weight: var(--body-font-weight);
+        font-size: var(--body-font-size);
+        letter-spacing: var(--body-letter-spacing);
+        font-family: var(--body-font-family);
+        font-style: var(--body-font-style);
+        line-height: var(--body-line-height);
+    }
+
+    .about .rectangle-2 {
+        position: absolute;
+        width: 434px;
+        height: 226px;
+        top: 289px;
+        left: 2px;
+        object-fit: cover;
+    }
+
+    .about .rectangle-3 {
+        position: absolute;
+        width: 434px;
+        height: 259px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .about .sub-head {
+        position: absolute;
+        width: 100%;
+        height: 27%;
+        top: 174px;
+        left: 0px;
+        background-size: 100% 100%;
+        background-image: url(https://media.istockphoto.com/id/1364075546/photo/empty-corridor-in-modern-hospital-with-information-counter-and-hospital-bed-in-rooms-3d.jpg?s=612x612&w=0&k=20&c=xxFDmIVpH1wJaaiorpvfzec4RRggSb48PDb_dU9bTjo=);
+        background-repeat: no-repeat;
+    }
+    /*   
+  .about .overlap-about-image-div {
+    position: relative;
+    height: 250px;
+    background-color: #ffffff80;
+  } */
+
+    .about .overlap-about-image-wrapper {
+        position: absolute;
+        width: 1366px;
+        height: 250px;
+        top: 0;
+        left: 0;
+    }
+
+    .about .overlap-about-image-text {
+        position: relative;
+        height: 250px;
+    }
+
+    .about .frame {
+        position: absolute;
+        width: 1366px;
+        height: 250px;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    /* .about .ellipse {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 122px;
+    left: 1238px;
+    background-color: var(--accent);
+    border-radius: 128px;
+    opacity: 0.5;sub
+  }
+  
+  .about .ellipse-2 {
+    position: absolute;
+    width: 239px;
+    height: 239px;
+    top: -119px;
+    left: -119px;
+    background-color: var(--secondary);
+    border-radius: 119.5px;
+    opacity: 0.3;
+  } */
+
+    .about .rectangle-div {
+        position: absolute;
+        width: 1366px;
+        height: 8px;
+        top: 242px;
+        left: 0;
+    }
+
+    /* .about .rectangle-4 {
+    position: absolute;
+    width: 837px;
+    height: 8px;
+    top: 0;
+    left: 306px;
+    background-color: var(--primary);
+  }
+  
+  .about .rectangle-5 {
+    position: absolute;
+    width: 223px;
+    height: 8px;
+    top: 0;
+    left: 1143px;
+    background-color: var(--secondary);
+  }
+  
+  .about .rectangle-6 {
+    position: absolute;
+    width: 306px;
+    height: 8px;
+    top: 0;
+    left: 0;
+    background-color: var(--accent);
+  } */
+
+    .about .overlap-wrapper {
+        position: absolute;
+        width: 324px;
+        height: 76px;
+        top: 76px;
+        left: 187px;
+    }
+
+    .about .image-text {
+        position: relative;
+        width: 320px;
+        height: 76px;
+    }
+
+    .about .about-us {
+        position: absolute;
+        top: 21px;
+        left: 0;
+        font-family: var(--display-1-font-family);
+        font-weight: var(--display-1-font-weight);
+        color: var(--primary);
+        font-size: var(--display-1-font-size);
+        letter-spacing: var(--display-1-letter-spacing);
+        line-height: var(--display-1-line-height);
+        white-space: nowrap;
+        font-style: var(--display-1-font-style);
+    }
+
+    .about .home-about-us {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: var(--body-2-font-family);
+        font-weight: var(--body-2-font-weight);
+        color: var(--primary);
+        font-size: var(--body-2-font-size);
+        letter-spacing: var(--body-2-letter-spacing);
+        line-height: var(--body-2-line-height);
+        white-space: nowrap;
+        font-style: var(--body-2-font-style);
+    }

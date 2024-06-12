@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Elysium Hospital</title>
+    <link rel="icon" href="Images\favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href=@Url.Content("~/Content/AboutStyle.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/ContactStyle.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/HomeStyle.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/AboutStyleGuide.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/ContactStyleGuide.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/HomeStyleGuide.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/AboutStyleGlobal.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/ContactStyleGlobal.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/HomeStyleGlobal.css") type="text/css" />
+    <link rel="stylesheet" href=@Url.Content("~/Content/LayoutStyle.css") type="text/css" />
+</head>
+<body>
+    <div @RenderBody()>
+        <div class="div">
+            <nav class="menu">
+                <div class="menu-items">
+                    <p class="website-text">@Html.ActionLink("Home", "Home", "Home")</p>
+                    <p class="website-text">@Html.ActionLink("About Us", "About", "Home")</p>
+                    <!-- <a  class="website-text">Services</a> -->
+                    @*<a class="website-text">Doctors</a>*@
+                    <p class="website-text">@Html.ActionLink("Contact Us", "Contact", "Home")</p>
+                </div>
+            </nav>
+            <div class="top">
+                <a href="Home.cshtml"><img class="hospital-icon" src="https://c.animaapp.com/PVLm48Nt/img/ekran-g-r-nt-s--2023-11-12-163403-1.png" /></a>
+                <div class="top-emergency-working-hour-location">
+                    <div class="top-emergency">
+                        <div class="top-phone-number">0552 401 9653</div>
+                        <img class="top-emergency-image" src="https://c.animaapp.com/PVLm48Nt/img/group-188.svg" />
+                        <div class="emergency">EMERGENCY</div>
+                    </div>
+                    <div class="top-working-hour">
+                        <div class="top-working-hour-country">09:00 - 20:00 Everyday</div>
+                        <img class="top-working-hour-image" src="https://c.animaapp.com/PVLm48Nt/img/group-177.svg" />
+                        <div class="top-capital">WORK HOUR</div>
+                    </div>
+                    <div class="top-location">
+                        <div class="top-working-hour-country">Turkey</div>
+                        <img class="top-location-image" src="https://c.animaapp.com/PVLm48Nt/img/group-178.svg" />
+                        <div class="top-capital">LOCATION</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-items">
+                <d<iv class="footer-item">
+                    <a href="About.cshtml" class="footer-item-text">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="link-symbol"></span>About Us
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="doctors.html" class="footer-item-text">
+                        <i class="fab fa-instagram"></i>
+                        <span class="link-symbol"></span>Doctors
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="Contact.cshtml" class="footer-item-text">
+                        <i class="fab fa-twitter"></i>
+                        <span class="link-symbol"></span>Contact Us
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://www.facebook.com" class="footer-item-text">
+                        <i class="fab fa-facebook"></i>
+                        <span class="link-symbol"></span>Facebook
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://www.twitter.com" class="footer-item-text">
+                        <i class="fab fa-yoursocialmedia"></i>
+                        <span class="link-symbol"></span>Twitter
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://www.instagram.com" class="footer-item-text">
+                        <i class="fab fa-yoursocialmedia"></i>
+                        <span class="link-symbol"></span>Instagram
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
